@@ -1,0 +1,4 @@
+# Remove the columns
+papers = papers.drop(columns=['ups','downs','num_comments','permalink','link_flair_text','edited','name'], axis=1).sample(10)
+# Print out the first rows of papers
+papers.head()
