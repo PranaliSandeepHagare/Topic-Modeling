@@ -1,0 +1,10 @@
+Loading of Data
+
+# Importing modules
+import pandas as pd
+import os
+os.chdir('..')
+# Read data into papers
+papers = pd.read_csv(r'C:\Users\damar\Desktop\redditdataset.csv')
+# Print head
+papers.head()
